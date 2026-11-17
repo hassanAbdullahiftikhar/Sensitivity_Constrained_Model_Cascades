@@ -1,0 +1,27 @@
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# large or regenerable artefacts (see README "Reproducing")
+data/
+runs/
+deploy/
+logs/
+bench_bundle.zip
+results/bench_smoke/
+results/**/curves_seed*.npz
+
+# LaTeX build output
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+# ...except the curves scripts/verify_paper.py and cascade/figures.py read
+!results/pathmnist_128/curves_seed*.npz
+!results/ham10000_128/curves_seed*.npz
+!results/ham10000bal_128/curves_seed*.npz

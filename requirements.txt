@@ -1,0 +1,15 @@
+# PC (training + analysis). Install torch first from the CUDA index:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+medmnist>=3.0
+numpy
+scipy
+scikit-learn
+pandas
+matplotlib
+pillow
+onnx
+onnxscript
+onnxruntime
+psutil
+tabulate
+# Edge devices need only: numpy onnxruntime psutil
