@@ -1,0 +1,19 @@
+ Oppo F19 CPH2219, Snapdragon 662 (Kryo 260: 4x Gold A73 + 4x Silver A53-class)
+processor	: 0
+CPU part	: 0x801
+processor	: 1
+CPU part	: 0x801
+processor	: 2
+CPU part	: 0x801
+processor	: 3
+CPU part	: 0x801
+processor	: 4
+CPU part	: 0x800
+processor	: 5
+CPU part	: 0x800
+processor	: 6
+CPU part	: 0x800
+processor	: 7
+CPU part	: 0x800
+Power: plugged in and charging during the run
+Android 13, ColorOS 13; Termux (F-Droid) + proot-distro Ubuntu; Python 3.12.16, onnxruntime 1.31.1, numpy 2.5.4
